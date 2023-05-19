@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Serif', serif;
+}
+.header{
+    min-height: 130vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(245,245,220,0.7),rgb(245,245,220,0.7)) , url(images/learn.more.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ 
+}
+.content{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.overview{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.head1{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.type{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.symptoms{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+.symptomsp{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+.causes{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+.causesp{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+.riskfactors{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+.riskfactorsp{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+.complications{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 3px; 
+    margin-right: 10px;
+}
+.complicationsp{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+.preventions{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 3px;  
+    margin-right: 10px;
+}
+.preventionsp{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+}

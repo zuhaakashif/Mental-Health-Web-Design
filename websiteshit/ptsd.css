@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Serif', serif;
+}
+.header{
+    min-height: 130vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 227, 196, 0.5),rgb(255, 227, 196, 0.5)), url(images/helpline2.jpg);
+    background-position: center; 
+    background-size: cover;
+    position: relative;
+}
+.ptsd{
+    margin-left: 10px;
+    font-size: 25px;
+    
+}
+.ptsdpara{
+    margin-left: 10px;
+    font-size: 19px;
+    word-spacing: 1px;
+    margin-right: 19px;
+}
+.ptsdsymptoms{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.ptsdsymptomspara{
+    margin-left: 10px;
+    font-size: 19px;
+    word-spacing: 1px;
+    margin-right: 19px;
+}
+.ptsdtreatment{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.ptsdtreatmentpara{
+    margin-left: 10px;
+    font-size: 19px;
+    word-spacing: 1px;
+    margin-right: 19px;
+}

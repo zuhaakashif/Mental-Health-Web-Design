@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Merriweather', serif;
+}
+body{
+    background-color:rgb(169,169,169);
+}
+nav{
+  display: flex ;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+color: rgb(255,255,0);
+text-decoration: none;
+  font-size: 15px;
+}
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: rgb(95,158,160);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+  .types{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .types-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows:max-content;
+    gap: var(--_spacer);
+    padding: var(--_spacer);
+    background: var(--surface-2);
+    border-radius: var(--radius-2);
+    box-shadow: var(--shadow-2);
+    margin-top: 5px;
+    float: left;
+    line-height: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .types-col img{
+   inline-size: 100%;
+   aspect-ratio: 16/9;
+   object-fit: cover;
+   display: block;
+   position: relative;
+   float: -70%;
+   line-height: 100% ;
+   width: 100%;
+   height: 100%;
+  }
+  .layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+  .layer:hover{
+    background: rgb(95,158,160);
+  }
+  .layer h2{
+    width: 100%;
+    font-weight: 500;
+    color:rgb(0, 0, 0);
+    font-size: 46px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .layer:hover h2{
+    bottom: 49%;
+    opacity: 1;
+  }
+  
+.media-scroller {
+    --_spacer: var(--size-10); 
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 100%; 
+    padding: 0 var(--_spacer) var(--_spacer);
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+  }
+  
+.media-scroller--with-groups {
+    grid-auto-columns: 100%; 
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+.media-group {
+    display: grid;
+    gap: var(--_spacer);
+    grid-auto-flow: column;
+  }
