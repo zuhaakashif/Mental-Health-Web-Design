@@ -24,6 +24,13 @@ The Mental Health Website is a project aimed at raising awareness and providing 
 - **Events and Workshops**: Stay updated on upcoming mental health events, workshops, and support groups happening in your area.
 
 
+
+https://github.com/zuhaakashif/Mental-Health-Web-Design/assets/100795162/085dbb09-0d4f-45db-aa92-fec60c1f891d
+
+
+
+
+
 ## Contributing
 
 We welcome contributions from anyone interested in improving the Mental Health Website. If you'd like to contribute, please follow these guidelines:
